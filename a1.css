@@ -1,0 +1,141 @@
+*{
+    background-color: black;
+}
+
+.a1{
+    background-color: rgb(35, 35, 153);
+    margin: auto;
+    width: 90%;
+    margin-top: 50px;
+    border-radius: 20px;
+    height: 680px;
+    width: 650px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.image{
+    background-color: aliceblue;
+    position: absolute;
+}
+
+.top_container{
+    height: 250px;
+    margin: 14px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: rgb(89, 63, 206);
+    color: rgb(59, 255, 33);
+    border-radius: 20px;
+    width: 580px;
+}
+
+.p1{
+    filter: grayscale(1);
+    float: left;
+    margin-top: 200px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.bg{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 12px;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    font-size: ;
+}
+
+.l1{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:690px) {
+    .p1{
+        margin-top: 160px;
+                filter: grayscale(1);
+                height: 200px;
+                width: 160px;
+    }
+
+    .top_container{
+        margin-left: 10px;
+            height: 270px;
+
+    }
+    
+}
+
+@media screen and(max-width:400){
+    .p1 {
+            filter: grayscale(1);
+            float: left;
+            margin-top: 180px;
+            margin-right: 15px;
+            border-radius: 10px;
+        }
+
+    .top_container{
+        width: 150px;
+    }
+}
+
+@media screen and(max-width:480) {
+    .p1{
+            height: 300px;
+            margin-top: 200px;
+    }
+
+    .bg{
+            margin-left: 1px;
+                    font-weight: 300;
+    }
+
+
+}
+
+
+@media screen and(max-width:290)
+{
+    .top_container {
+            height: 350px;
+            margin: 14px;
+            margin-top: 20px;
+            margin-left: 30px;
+            background-color: rgb(89, 63, 206);
+            color: rgb(59, 255, 33);
+            border-radius: 20px;
+            width: 180px;
+        }
+
+        .bg{
+            margin-top: 210px;
+        }
+}
+
+
+.flt_items{
+
+    position: absolute;
+    margin-left: 310px;
+    height: 180px;
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(249, 255, 250);
+    color: rgb(0, 0, 0);
+}
+
+.st{
+    color: rgb(229, 121, 195);
+}
+
+@media screen and(max-width:901)
+{
+    .flt_items{
+        position: relative;
+        margin-right: 500px;
+    }
+}
